@@ -11,20 +11,12 @@ Initializing Repository
 
 Repo initialization:
 
-    $ repo init -u https://github.com/temasek/android.git -b cm-12.1
+    $ repo init -u https://github.com/HealthyHoney/temasek_manifest.git -b temasek-cm-12.1
 
 
 sync repo :
 
     $ repo sync
-
-Kernel build :
-
-Due to kernel now being built with GCC 5.1,
-you may need to apply the following patches in order to make your kernel fully build-able and functional.
-
-https://github.com/temasek/android_kernel_samsung_hlte/commit/34f7e2506f636fcd78f5a66ef6b2dc6c2f6ea65d
-https://github.com/temasek/android_kernel_samsung_hlte/commit/c3af09a3d5609f646f638b8fd858ec3d72304bba
 
 
 Credits
@@ -56,3 +48,8 @@ apascual89 (Nexus 6, Note 4)
 kornfed (klte)
 
 neobuddy89 (lettuce)
+
+
+Officially Unrecognized Device Maintainers
+========================================
+zg85 (d802)
